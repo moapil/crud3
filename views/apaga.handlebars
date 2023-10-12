@@ -1,0 +1,13 @@
+<h1>Excluir um Produto da base de dados</h1>
+<br>
+<form action="/apagar" method="post">
+    <label for="">Nome do produto:</label>
+    <input type="text" name="nome"><br>
+    <button type="submit">Apagar</button>
+</form>
+<br>
+{{#if msg}}
+    <p>{{msg}}</p>
+{{else}}
+    <p>{{msg2}}</p>
+{{/if}}
